@@ -1,0 +1,42 @@
+{
+	"info": {
+		"_postman_id": "3f6dc48f-0574-4147-8643-41e0cc610481",
+		"name": "Basic Auth",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Basic Auth",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:8000/api/est?api_token=secret123",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"est"
+					],
+					"query": [
+						{
+							"key": "api_token",
+							"value": "secret123"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
